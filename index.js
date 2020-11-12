@@ -10,7 +10,7 @@ app.get('/uday', function (req, res) {
     res.send('hello uday');
    });
 //listen to port 3000 by default
-var port = process.env.PORT || 9000
+var port = process.env.PORT || 5000
 var server = app.listen(port, () => {
     console.log('App listening on port ', port);
 });
