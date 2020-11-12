@@ -6,6 +6,9 @@ var app = express();
 app.get('/', function (req, res) {
  res.send('hello konvergen');
 });
+app.get('/uday', function (req, res) {
+    res.send('hello uday');
+   });
 //listen to port 3000 by default
 var port = process.env.PORT || 9000
 var server = app.listen(port, () => {
