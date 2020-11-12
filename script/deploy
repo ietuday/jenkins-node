@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ssh ubuntu@54.213.16.20 <<EOF
+    cd ~/node-app
+    git pull origin master
+    npm install
+    pm2 restart ecosystem.config.js
+    exit
+EOF
