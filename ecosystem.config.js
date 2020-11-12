@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name    : "node-app",
+        name    : "jenkins-node",
         script  : "npm",
         args    : "start"
     }]
