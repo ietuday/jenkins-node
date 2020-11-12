@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh ubuntu@54.213.16.20 <<EOF
+ssh ubuntu@18.132.205.103 <<EOF
     cd ~/node-app
     git pull origin master
     npm install
